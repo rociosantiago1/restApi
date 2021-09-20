@@ -1,0 +1,78 @@
+2020-06-02 16:05:13,932 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-06-02 16:05:13,945 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-06-02 16:05:13,945 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-06-02 16:05:13,946 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-06-02 16:05:13,946 INFO o.a.j.JMeter: Version 5.3
+2020-06-02 16:05:13,946 INFO o.a.j.JMeter: java.version=1.8.0_172
+2020-06-02 16:05:13,946 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-06-02 16:05:13,946 INFO o.a.j.JMeter: os.name=Windows 10
+2020-06-02 16:05:13,947 INFO o.a.j.JMeter: os.arch=amd64
+2020-06-02 16:05:13,947 INFO o.a.j.JMeter: os.version=10.0
+2020-06-02 16:05:13,947 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-06-02 16:05:13,947 INFO o.a.j.JMeter: java.awt.headless=true
+2020-06-02 16:05:13,947 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-06-02 16:05:13,947 INFO o.a.j.JMeter: Available Processors =12
+2020-06-02 16:05:13,950 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-06-02 16:05:13,951 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-06-02 16:05:13,951 INFO o.a.j.JMeter: JMeterHome=C:\aplicacionesInternet\jakarta-jmeter-2.5.1\apache-jmeter-5.3
+2020-06-02 16:05:13,951 INFO o.a.j.JMeter: user.dir  =C:\aplicacionesInternet\jakarta-jmeter-2.5.1\apache-jmeter-5.3\bin
+2020-06-02 16:05:13,951 INFO o.a.j.JMeter: PWD       =C:\aplicacionesInternet\jakarta-jmeter-2.5.1\apache-jmeter-5.3\bin
+2020-06-02 16:05:18,455 INFO o.a.j.JMeter: IP: 192.168.183.1 Name: 1DELP3630264414 FullName: 1DELP3630264414.avantel.local
+2020-06-02 16:05:18,495 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2020-06-02 16:05:18,496 INFO o.a.j.r.RmiUtils: Local IP address=192.168.183.1
+2020-06-02 16:05:18,636 ERROR o.a.j.JMeter: Giving up, as server failed with:
+java.rmi.server.ExportException: Listen failed on port: 0; nested exception is: 
+	java.io.FileNotFoundException: rmi_keystore.jks (El sistema no puede encontrar el archivo especificado)
+	at sun.rmi.transport.tcp.TCPTransport.listen(Unknown Source) ~[?:1.8.0_172]
+	at sun.rmi.transport.tcp.TCPTransport.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at sun.rmi.transport.LiveRef.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at sun.rmi.server.UnicastServerRef.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at java.rmi.server.UnicastRemoteObject.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at java.rmi.server.UnicastRemoteObject.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at java.rmi.server.UnicastRemoteObject.<init>(Unknown Source) ~[?:1.8.0_172]
+	at org.apache.jmeter.engine.RemoteJMeterEngineImpl.<init>(RemoteJMeterEngineImpl.java:66) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.RemoteJMeterEngineImpl.startServer(RemoteJMeterEngineImpl.java:72) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:524) [ApacheJMeter_core.jar:5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:252) [ApacheJMeter.jar:5.3]
+Caused by: java.io.FileNotFoundException: rmi_keystore.jks (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_172]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_172]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_172]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_172]
+	at org.apache.jmeter.rmi.SSLRMIServerSocketFactory.loadStore(SSLRMIServerSocketFactory.java:147) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.rmi.SSLRMIServerSocketFactory.createServerSocket(SSLRMIServerSocketFactory.java:99) ~[ApacheJMeter_core.jar:5.3]
+	at sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(Unknown Source) ~[?:1.8.0_172]
+	... 16 more
+2020-06-02 16:05:18,639 ERROR o.a.j.JMeter: An error occurred: 
+java.rmi.server.ExportException: Listen failed on port: 0; nested exception is: 
+	java.io.FileNotFoundException: rmi_keystore.jks (El sistema no puede encontrar el archivo especificado)
+	at sun.rmi.transport.tcp.TCPTransport.listen(Unknown Source) ~[?:1.8.0_172]
+	at sun.rmi.transport.tcp.TCPTransport.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at sun.rmi.transport.LiveRef.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at sun.rmi.server.UnicastServerRef.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at java.rmi.server.UnicastRemoteObject.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at java.rmi.server.UnicastRemoteObject.exportObject(Unknown Source) ~[?:1.8.0_172]
+	at java.rmi.server.UnicastRemoteObject.<init>(Unknown Source) ~[?:1.8.0_172]
+	at org.apache.jmeter.engine.RemoteJMeterEngineImpl.<init>(RemoteJMeterEngineImpl.java:66) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.RemoteJMeterEngineImpl.startServer(RemoteJMeterEngineImpl.java:72) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:524) [ApacheJMeter_core.jar:5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:252) [ApacheJMeter.jar:5.3]
+Caused by: java.io.FileNotFoundException: rmi_keystore.jks (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_172]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_172]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_172]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_172]
+	at org.apache.jmeter.rmi.SSLRMIServerSocketFactory.loadStore(SSLRMIServerSocketFactory.java:147) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.rmi.SSLRMIServerSocketFactory.createServerSocket(SSLRMIServerSocketFactory.java:99) ~[ApacheJMeter_core.jar:5.3]
+	at sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(Unknown Source) ~[?:1.8.0_172]
+	... 16 more

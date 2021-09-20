@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1632077921367,1161,GET_dummy.restapiexample.com_todos,200,OK,Number of Users 1-1,text,true,,1795,0,1,1,http://dummy.restapiexample.com/api/v1/employees,1159,0,0
+1632077982478,1081,GET_dummy.restapiexample.com_uno,200,OK,Number of Users 1-1,text,true,,1336,0,1,1,http://dummy.restapiexample.com/api/v1/employee/1,1081,0,0
+1632078043570,1090,POST_dummy.restapiexample.com_create,200,OK,Number of Users 1-1,text,true,,1317,0,1,1,http://dummy.restapiexample.com/api/v1/create,1090,0,0
+1632078104619,1047,DELETE_dummy.restapiexample.com_delete,200,OK,Number of Users 1-1,text,true,,1257,0,1,1,http://dummy.restapiexample.com/api/v1/delete/2662,1047,0,0
+1632078165641,1020,PUT_dummy.restapiexample.com_update,200,OK,Number of Users 1-1,text,true,,1263,0,1,1,http://dummy.restapiexample.com/api/v1/update/5496,1020,0,0
