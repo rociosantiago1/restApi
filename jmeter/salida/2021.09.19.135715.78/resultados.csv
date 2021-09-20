@@ -1,0 +1,7 @@
+Etiqueta,# Muestras,Media,Mediana,90% Line,95% Line,99% Line,Mín,Máx,% Error,Rendimiento,Kb/sec,Desv. Estándar
+GET_dummy.restapiexample.com_todos,1,1161,1161,1161,1161,1161,1161,1161,"0,00%",",9","1,5","0,00"
+GET_dummy.restapiexample.com_uno,1,1081,1081,1081,1081,1081,1081,1081,"0,00%",",9","1,2","0,00"
+POST_dummy.restapiexample.com_create,1,1090,1090,1090,1090,1090,1090,1090,"0,00%",",9","1,2","0,00"
+DELETE_dummy.restapiexample.com_delete,1,1047,1047,1047,1047,1047,1047,1047,"0,00%","1,0","1,2","0,00"
+PUT_dummy.restapiexample.com_update,1,1020,1020,1020,1020,1020,1020,1020,"0,00%","1,0","1,2","0,00"
+Total,5,1079,1081,1090,1161,1161,1020,1161,"0,00%",",0",",0","47,65"

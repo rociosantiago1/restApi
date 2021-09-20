@@ -1,0 +1,32 @@
+2020-06-02 15:53:54,065 INFO o.a.j.u.JMeterUtils: Setting Locale to es_CO
+2020-06-02 15:53:54,075 INFO o.a.j.u.JMeterUtils: Could not find resources for 'es_CO', using 'es'
+2020-06-02 15:53:54,076 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-06-02 15:53:54,076 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-06-02 15:53:54,076 INFO o.a.j.JMeter: Loading additional properties from: C:\temp3\jmeteronline.properties
+2020-06-02 15:53:54,077 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-06-02 15:53:54,077 INFO o.a.j.JMeter: Version 5.3
+2020-06-02 15:53:54,077 INFO o.a.j.JMeter: java.version=1.8.0_172
+2020-06-02 15:53:54,077 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-06-02 15:53:54,077 INFO o.a.j.JMeter: os.name=Windows 10
+2020-06-02 15:53:54,077 INFO o.a.j.JMeter: os.arch=amd64
+2020-06-02 15:53:54,077 INFO o.a.j.JMeter: os.version=10.0
+2020-06-02 15:53:54,077 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-06-02 15:53:54,078 INFO o.a.j.JMeter: java.awt.headless=true
+2020-06-02 15:53:54,078 INFO o.a.j.JMeter: Max memory     =7596408832
+2020-06-02 15:53:54,078 INFO o.a.j.JMeter: Available Processors =12
+2020-06-02 15:53:54,083 INFO o.a.j.JMeter: Default Locale=español (Colombia)
+2020-06-02 15:53:54,083 INFO o.a.j.JMeter: JMeter  Locale=español (Colombia)
+2020-06-02 15:53:54,083 INFO o.a.j.JMeter: JMeterHome=C:\aplicacionesInternet\jakarta-jmeter-2.5.1\apache-jmeter-5.3
+2020-06-02 15:53:54,083 INFO o.a.j.JMeter: user.dir  =C:\aplicacionesInternet\jakarta-jmeter-2.5.1\apache-jmeter-5.3\bin
+2020-06-02 15:53:54,083 INFO o.a.j.JMeter: PWD       =C:\aplicacionesInternet\jakarta-jmeter-2.5.1\apache-jmeter-5.3\bin
+2020-06-02 15:53:58,686 INFO o.a.j.JMeter: IP: 192.168.183.1 Name: 1DELP3630264414 FullName: 1DELP3630264414.avantel.local
+2020-06-02 15:53:58,689 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\temp3\salida'
+2020-06-02 15:53:58,693 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Report generation requires csv output format, check 'jmeter.save.saveservice.output_format' property
+	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:123) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:544) [ApacheJMeter_core.jar:5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:252) [ApacheJMeter.jar:5.3]
